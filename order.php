@@ -15,7 +15,7 @@ function getIp()
 
 function apiWebvorkV1NewLead($post, $ip, $offerId, $counter = 0)
 {
-    $token = '89adaf22b88f5c0e3766e0c147046601'; // Заменяем на свой из кабинета
+    $token = '0e483044ca4097db5c1ba91925287049'; // Заменяем на свой из кабинета
 
     $url = 'http://api.webvork.com/v1/new-lead?token=' . rawurlencode($token)
         . '&ip=' . rawurlencode($ip)

@@ -20,7 +20,7 @@ if (isset($post_data['phone']) and ($post_data['phone'] !== '') ) {
 
 	$api_url = 'http://api.webvork.com/v1/new-lead';
 	$args = [
-		'token' => '89adaf22b88f5c0e3766e0c147046601',
+		'token' => '0e483044ca4097db5c1ba91925287049',
 		'offer_id' => 4,
 		'name' => $post_data['name'],
 		'phone' =>  $post_data['phone'],
