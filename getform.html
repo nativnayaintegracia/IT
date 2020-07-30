@@ -39,7 +39,7 @@ if (isset($post_data['phone']) and ($post_data['phone'] !== '') ) {
 	$api_reqest = json_decode($api_reqest);
 
 	if(@$api_reqest->status == 'ok'){
-		require_once('_thankyou/ok.php');
+		require_once('_thankyou/ok.html');
         exit();
 	}else{
 		echo 'error 1!';
